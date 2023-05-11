@@ -10,7 +10,7 @@ import Footer from './Pages/Footer/Footer'
  const App = () => {
   return (
     <>
-    {/* <Header /> */}
+    <Header />
     <Intro />
     <MajorProjects />
     <Skills />
