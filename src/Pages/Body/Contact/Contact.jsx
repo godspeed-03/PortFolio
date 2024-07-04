@@ -17,8 +17,8 @@ export default function Contact() {
         repeatDelay: 2,
         duration : 10,
       }}
-      className="maincircle w-[23rem] h-[23rem] rounded-[100%] bg-white shaw2 z-50 mx-auto ">
-        <motion.span 
+      className="maincircle w-[23rem] h-[23rem] rounded-[100%] bg-white  z-50 mx-auto ">
+        <span 
         animate={{rotate : -360}}
         transition ={{
           repeat : Infinity,
@@ -29,7 +29,7 @@ export default function Contact() {
           <div className="w-[105px] h-[105px] rounded-full bg-yellow-300 flex items-center justify-center">
             <div className="w-[6rem] h-[6rem] rounded-full bg-white flex items-center justify-center">
             <a href="https://www.linkedin.com/in/satyam-anand-951b5621b" className='rounded-full' target='_blank'>
-              <motion.img 
+              <img 
               animate={{rotate : 0}}
       transition ={{
         // repeat : Infinity,
@@ -41,7 +41,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-        </motion.span>
+        </span>
 
         <span className="sec_circle  relative  top-[2rem] -left-[4rem]">
           <div className="w-[105px] h-[105px] rounded-full bg-yellow-300 flex items-center justify-center">

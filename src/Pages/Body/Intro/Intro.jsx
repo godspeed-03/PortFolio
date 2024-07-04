@@ -23,7 +23,7 @@ export default function Intro() {
       </div>
       <div className="right flex-1 m-auto relative z-20 ">
 
-        <img src={logo} alt="" className="m-auto w-[600px] h-full backg rounded-[100px]  backg hover:shaw1 transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300" />
+        <img src={logo} alt="" className="m-auto w-[600px] h-full backg rounded-[100px] hover:border-4 transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300" />
         
 
       </div>
